@@ -74,11 +74,6 @@ canvas.addEventListener("mousemove", function (e) {
     };
 });
 
-let dino = new Sprite("dino.png");
-dino.size = 0.1;
-
-let fireballs = [];
-
 function gameloop() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
